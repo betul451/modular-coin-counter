@@ -1,4 +1,4 @@
-\# 🪙 Euro Coin Detection \& Counter
+🪙 Euro Coin Detection \& Counter
 
 
 
@@ -6,7 +6,7 @@ This project is a simple Computer Vision application written in Python using Ope
 
 
 
-\## 💡 How It Works
+💡 How It Works
 
 
 
@@ -14,7 +14,7 @@ The project is structured into 3 main parts:
 
 
 
-1\. \*\*Image Preprocessing (`src/image\_processing.py`):\*\*
+1.Image Preprocessing (`src/image\_processing.py`):
 
 &#x20;  - Converts the image to grayscale to remove color noise.
 
@@ -22,7 +22,7 @@ The project is structured into 3 main parts:
 
 
 
-2\. \*\*Coin Detection \& Value Estimation (`src/coin\_detection.py`):\*\*
+2.Coin Detection \& Value Estimation (`src/coin\_detection.py`):
 
 &#x20;  - Uses OpenCV's `HoughCircles` algorithm to locate circular shapes (coins).
 
@@ -30,13 +30,13 @@ The project is structured into 3 main parts:
 
 
 
-3\. \*\*Main Runner (`main.py`):\*\*
+3.Main Runner (`main.py`):
 
 &#x20;  - Runs the pipeline step by step, draws green circles around detected coins, and displays the total calculated amount.
 
 
 
-\## 📁 Project Structure
+ 📁 Project Structure
 
 modular-coin-counter/
 
